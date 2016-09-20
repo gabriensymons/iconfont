@@ -292,14 +292,13 @@ body {
 
 @font-face {
     font-family: 'bi-icons';
+    src: url('../font/bi-icons.eot?51672066');
+    src: url('../font/bi-icons.eot?51672066#iefix') format('embedded-opentype'),
+         url('../font/bi-icons.woff?51672066') format('woff'),
+         url('../font/bi-icons.ttf?51672066') format('truetype'),
+         url('../font/bi-icons.svg?51672066#bi-icons') format('svg');
     font-weight: normal;
     font-style: normal;
-
-    src: url('./font/bi-icons.eot?51672066');
-    src: url('./font/bi-icons.eot?51672066#iefix') format('embedded-opentype'),
-    url('./font/bi-icons.woff?51672066') format('woff'),
-    url('./font/bi-icons.ttf?51672066') format('truetype'),
-    url('./font/bi-icons.svg?51672066#bi-icons') format('svg');
 }
 
 .demo-icon {
