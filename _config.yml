@@ -1,0 +1,5 @@
+# Tell Jekyll the name of our site
+name: iconfont
+
+# What version of markdown to use
+markdown: kramdown
