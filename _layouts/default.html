@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+
+    <!-- Link to stylesheet -->
+    <!-- <link href="{{ site.github.url }}/assets/styles/main.css" rel="stylesheet"> -->
+    <!-- <link href="{{ site.baseurl }}/assets/styles/main.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+
+    <!-- TODO: remove this script and always show the codes -->
+    <script>
+    function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+
+        if (on) {
+          obj.className += ' codesOn';
+      } else {
+          obj.className = obj.className.replace(' codesOn', '');
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+    <nav class="container">
+        {% include nav.html %}
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            {{ content }}
+        </div>
+    </div>
+
+    <footer class="container">
+        footer
+    </footer>
+
+</body>
+</html>

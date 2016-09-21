@@ -20,3 +20,14 @@ baseurl: /iconfont
 
 # This way you can preview your site locally from the site root on localhost, but when GitHub
 # generates your pages from the gh-pages branch all the URLs will start with /project-name and resolve properly.
+
+# Site-wide defaults
+# The defaults key holds an array of scope/values pairs that define what defaults
+# should be set for a particular file path, and optionally, a file type in that path.
+defaults:
+    -
+        scope:
+            path: "" # an empty string here means all files in the project
+            type: "pages"
+        values:
+            layout: "default"

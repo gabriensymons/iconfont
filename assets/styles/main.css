@@ -206,29 +206,20 @@ h1 {
     margin: 10px 0;
 
     font-family: inherit;
+    font-size: 38.5px;
     font-weight: bold;
     line-height: 20px;
+    line-height: 40px;
     color: inherit;
 
     text-rendering: optimizelegibility;
 }
 
 h1 small {
+    font-size: 24.5px;
     font-weight: normal;
     line-height: 1;
     color: #999;
-}
-
-h1 {
-    line-height: 40px;
-}
-
-h1 {
-    font-size: 38.5px;
-}
-
-h1 small {
-    font-size: 24.5px;
 }
 
 body {
@@ -236,16 +227,17 @@ body {
 }
 
 .header {
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 50%;
-
-    margin-left: -480px;
-    padding-top: 10px;
+    padding-left: 0;
 
     border-bottom: 1px solid #ddd;
     background-color: #fff;
+    list-style: none;
+}
+
+.header-item {
+    display: inline-block;
+
+    margin-right: 20px;
 }
 
 .footer {
@@ -292,13 +284,14 @@ body {
 
 @font-face {
     font-family: 'bi-icons';
+    font-weight: normal;
+    font-style: normal;
+
     src: url('../font/bi-icons.eot?51672066');
     src: url('../font/bi-icons.eot?51672066#iefix') format('embedded-opentype'),
          url('../font/bi-icons.woff?51672066') format('woff'),
          url('../font/bi-icons.ttf?51672066') format('truetype'),
          url('../font/bi-icons.svg?51672066#bi-icons') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
 .demo-icon {
